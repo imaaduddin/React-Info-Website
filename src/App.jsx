@@ -5,13 +5,6 @@ import CoreConcepts from "./components/CoreConcepts.jsx";
 import Examples from "./components/Examples.jsx";
 
 function App() {
-  const [ selectedTopic, setSelectedTopic ] = useState();
-
-  function handleSelect(selectedButton) {
-    // selectedButton => "components", "jsx", "props", "state"
-    setSelectedTopic(selectedButton);
-  }
-
   return (
     <div>
       <Header/>
